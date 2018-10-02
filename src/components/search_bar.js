@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 
-class SearchBar extends React.Component {
+const SearchBar = () => {
+  return <input />
+};
+
+/* class SearchBar extends React.Component {
   constructor(props) {
     super(props);
 
@@ -17,6 +21,6 @@ class SearchBar extends React.Component {
     );
   }
 }
-
+ */
 
 export default SearchBar;
